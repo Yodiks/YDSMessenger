@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_chat_thread_background"
+    tools:context="com.yds.messenger.ChatThreadActivity$PlaceholderFragment">
+
+    <ListView
+        android:id="@+id/listView_chatthread"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/linearLayout_chatBox"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:scrollbarStyle="outsideOverlay"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout_chatBox"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white_opaque"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/messagearea_padding"
+        android:paddingRight="@dimen/messagearea_padding">
+
+        <EditText
+            android:id="@+id/editText_newMessageText"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:capitalize="sentences" />
+
+        <ImageButton
+            android:id="@+id/button_newMessageSend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:background="@drawable/ic_action_send_now" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView_sendingStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout_chatBox"
+        android:layout_centerHorizontal="true"
+        android:background="@color/white_opaque"
+        android:text="@string/sending"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/color_timestamp"
+        android:textStyle="italic"
+        android:padding="@dimen/chatbubble_surrounding_padding_vertical"
+        android:gravity="center"
+        android:visibility="invisible" />
+</RelativeLayout>

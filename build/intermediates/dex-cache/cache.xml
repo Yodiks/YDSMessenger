@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\Education\TA\Software\YDSMessenger\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\4.0.30\jars\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="cebe8e4a3a469c4623addcca1dc571407ff3a08e">
+        <dex dex="E:\Education\TA\Software\YDSMessenger\app\build\intermediates\pre-dexed\debug\classes-dce060b1503e9511912845c6afd75b83be5db9c5.jar" />
+    </item>
+    <item
+        jar="E:\Education\TA\Software\YDSMessenger\app\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\19.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="b1701c49371231e0423b7588539f24bdab485019">
+        <dex dex="E:\Education\TA\Software\YDSMessenger\app\build\intermediates\pre-dexed\debug\classes-1fbc9495b64513e497cb892bacafa50d20d8e47f.jar" />
+    </item>
+    <item
+        jar="C:\Users\YDS\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.0.1\support-v4-19.0.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="587da9a481ffd341d2fa091704489b89845ddacd">
+        <dex dex="E:\Education\TA\Software\YDSMessenger\app\build\intermediates\pre-dexed\debug\support-v4-19.0.1-4dee1ad773ff88a85e82ff7d98106927e5ac115e.jar" />
+    </item>
+    <item
+        jar="E:\Education\TA\Software\YDSMessenger\app\libs\zxing-core-2.2.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="cba0b93b0072105d808ef7a00a107a4eb97874e7">
+        <dex dex="E:\Education\TA\Software\YDSMessenger\app\build\intermediates\pre-dexed\debug\zxing-core-2.2-77d723456a3ac481929b342818164ab071413436.jar" />
+    </item>
+    <item
+        jar="E:\Education\TA\Software\YDSMessenger\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="f71a6822470c9eb659d4f4a6cb57b780b35f058b">
+        <dex dex="E:\Education\TA\Software\YDSMessenger\app\build\intermediates\pre-dexed\debug\classes-6ac7d926f35702fe2920d4b3e2723ce2a1985e59.jar" />
+    </item>
+
+</items>

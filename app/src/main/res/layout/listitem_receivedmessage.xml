@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingRight="@dimen/chatbubble_indented_padding"
+    android:paddingTop="@dimen/chatbubble_surrounding_padding_vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/chat_bubble_white"
+        android:paddingBottom="@dimen/chatbubble_surrounding_padding_vertical"
+        android:paddingLeft="@dimen/chatbubble_surrounding_padding_horizontal"
+        android:paddingRight="@dimen/chatbubble_surrounding_padding_horizontal"
+        android:paddingTop="@dimen/chatbubble_surrounding_padding_vertical">
+
+        <TextView
+            android:id="@+id/textView_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:paddingBottom="@dimen/elements_bottom_margin"
+            android:text="@string/placeholder_messagepreview"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textIsSelectable="true" />
+
+        <TextView
+            android:id="@+id/textView_timestamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/textView_message"
+            android:layout_below="@id/textView_message"
+            android:paddingBottom="@dimen/elements_bottom_margin"
+            android:text="@string/placeholder_messagepreview"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="@color/color_timestamp" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_headingRed">#ffff1400</color>
+    <color name="color_messagePreview">#ff828282</color>
+    <color name="color_timestamp">#ff828282</color>
+    <color name="color_chat_thread_background">#ffdddddd</color>
+    <color name="color_chat_thread_background_black">#000</color>
+    <color name="white">#fff</color>
+    <color name="white_opaque">#66ffffff</color>
+    <color name="red">#58b4b7</color>
+</resources>

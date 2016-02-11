@@ -1,0 +1,19 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">10dp</dimen>
+    <dimen name="activity_vertical_margin">10dp</dimen>
+
+
+    <!-- Fonts -->
+    <dimen name="fontsize_heading">25sp</dimen>
+
+    <!-- Margins around items -->
+    <dimen name="elements_bottom_margin">10dp</dimen>
+    <dimen name="listitems_topbottom_margin">5dp</dimen>
+    <dimen name="chatbubble_surrounding_padding_horizontal">15dp</dimen>
+    <dimen name="chatbubble_surrounding_padding_vertical">7dp</dimen>
+    <dimen name="chatbubble_indented_padding">50dp</dimen>
+    <dimen name="startscanbuttonpadding">20dp</dimen>
+    <dimen name="startscanbutton_top_margin">50dp</dimen>
+    <dimen name="messagearea_padding">5dp</dimen>
+</resources>
